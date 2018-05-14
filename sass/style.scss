@@ -46,10 +46,13 @@ ul {
 }
 
 li {
+  background: url("https://source.unsplash.com/sV8XOpKQWNc");
+  background-size: cover;
   border: 1px solid black;
   font-weight: bold;
   list-style-type: none;
-  width: 400px;
+  width: 500px;
+  margin: 1rem;
 }
 
 input {
@@ -61,6 +64,10 @@ h2 {
   display: inline-block;  
   font-style: italic;
   text-decoration: none;    
+}
+
+p {
+  color: white;
 }
 
 img {

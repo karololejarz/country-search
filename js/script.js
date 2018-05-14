@@ -22,14 +22,18 @@ function showCountriesList(resp) {
         .replace(/"":/g, "")
         .replace('[{"', "")
         .replace('"}]', "")
-        .replace(/"},{"/g, ", ");
+        .replace(/"},{"/g, ", ")
+        .replace(/"},{null}]/g, "")
+        .replace("null", "NOT AVAILABLE");        
     var currencies =
       JSON.stringify(item.currencies, ['name'])
         .replace(/name/g, "")
         .replace(/"":/g, "")
         .replace('[{"', "")
         .replace('"}]', "")
-        .replace(/"},{"/g, ", ");
+        .replace(/"},{"/g, ", ")
+        .replace(/"},{null}]/g, "")
+        .replace("null", "NOT AVAILABLE");         
     
     $(countriesList).append(
       "<li>" + 

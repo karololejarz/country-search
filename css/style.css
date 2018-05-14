@@ -14,10 +14,12 @@ h1 { color: darkblue; }
 
 ul { display: -ms-flexbox; display: flex; -ms-flex-flow: wrap; flex-flow: wrap; -ms-flex-pack: center; justify-content: center; }
 
-li { border: 1px solid black; font-weight: bold; list-style-type: none; width: 400px; }
+li { background: url("https://source.unsplash.com/sV8XOpKQWNc"); background-size: cover; border: 1px solid black; font-weight: bold; list-style-type: none; width: 500px; margin: 1rem; }
 
 input { color: darkblue; }
 
 h2 { color: blue; display: inline-block; font-style: italic; text-decoration: none; }
+
+p { color: white; }
 
 img { height: 20%; width: 20%; }
